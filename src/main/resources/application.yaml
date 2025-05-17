@@ -1,3 +1,11 @@
 spring:
   application:
     name: java-advanced-backend
+  profiles:
+    active: dev
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
