@@ -1,0 +1,4 @@
+spring:
+  datasource:
+    url: jdbc:mysql://prod-db-host:3306/proddb
+    username: produser
